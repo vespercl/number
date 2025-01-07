@@ -23,13 +23,13 @@
         <button id="restart" style="display: none;">リスタート</button>
     </div>
 
-    <script src="script.js"></script>
+    <script src="app.js"></script>
 
     <script>
         // サービスワーカーの登録
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/service-worker.js')
+                navigator.serviceWorker.register('/sw.js')
                     .then((registration) => {
                         console.log('Service Worker登録完了:', registration.scope);
                     })
