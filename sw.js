@@ -3,10 +3,10 @@ const urlsToCache = [
   '/',
   '/index.html',
   '/styles.css',
-  '/script.js',
+  '/app.js',
   '/manifest.json',
-  '/icons/icon-192x192.png',
-  '/icons/icon-512x512.png'
+  '/number-icon.svg',
+  '/number-icon.svg'
 ];
 
 // インストール時にキャッシュを設定
